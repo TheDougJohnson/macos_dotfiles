@@ -6,9 +6,10 @@ author: Douglas Johnson
 # Resolution order: --target flag > this field > auto-detect from filesystem.
 # Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-build, hermes, kiro, opencode, vscode, windsurf
 targets:
-- opencode
+  - opencode
 dependencies:
-  apm: []
+  apm:
+    - mattpocock/skills
   mcp: []
 includes: auto
 scripts: {}
