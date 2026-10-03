@@ -9,7 +9,7 @@ targets:
   - opencode
 dependencies:
   apm:
-    - mattpocock/skills
+    - mattpocock/skills#v1.2.3
   mcp: []
 includes: auto
 scripts: {}
