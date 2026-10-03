@@ -167,3 +167,4 @@ source <(fzf --zsh)
 
 # ZOXIDE
 eval "$(zoxide init zsh)"
+eval "$(/Users/djohns/.local/bin/mise activate zsh)"
