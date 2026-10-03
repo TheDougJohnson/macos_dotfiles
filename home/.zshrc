@@ -160,11 +160,11 @@ export PATH="$PATH:/Users/djohns/.lmstudio/bin"
 # End of LM Studio CLI section
 
 # Mise
-eval "$(mise activate zsh)"
+# eval "$(mise activate zsh)"
+eval "$(/Users/djohns/.local/bin/mise activate zsh)"
 
 # FZF
 source <(fzf --zsh)
 
 # ZOXIDE
 eval "$(zoxide init zsh)"
-eval "$(/Users/djohns/.local/bin/mise activate zsh)"
