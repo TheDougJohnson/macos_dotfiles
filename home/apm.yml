@@ -7,7 +7,6 @@ author: Douglas Johnson
 # Accepted values: agent-skills, antigravity, claude, codex, copilot, cursor, gemini, grok-build, hermes, kiro, opencode, vscode, windsurf
 targets:
   - opencode
-  
 dependencies:
   apm:
     - mattpocock/skills#v1.2.3
