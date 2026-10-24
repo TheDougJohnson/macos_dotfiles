@@ -10,7 +10,7 @@ targets:
 dependencies:
   apm:
     - mattpocock/skills#v1.2.3
-    
+    - cursor/plugins/thermos
   mcp: []
 includes: auto
 scripts: {}
