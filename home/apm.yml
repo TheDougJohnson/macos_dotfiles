@@ -10,7 +10,7 @@ targets:
 dependencies:
   apm:
     - mattpocock/skills#v1.2.3
-    - cursor/plugins
+    - cursor/plugins#e73df471cd4bd918367e99f3dd9c51bd53ddf5f0
   mcp: []
 includes: auto
 scripts: {}
